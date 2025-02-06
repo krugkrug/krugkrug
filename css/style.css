@@ -31,7 +31,7 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #eb9f4d;
+            background: #3f5b8c;
         }
 
         ::-webkit-scrollbar-thumb:hover {
@@ -81,7 +81,7 @@ nav .navbar-container {
         nav .logo {
             font-size: 1.5rem;
             font-weight: bold;
-            color: #eb9f4d;
+            color: #3f5b8c;
             text-transform: uppercase;
            display: flex;
 
@@ -118,7 +118,7 @@ nav .navbar-container {
             position: absolute;
             width: 0%;
             height: 2px;
-            background: #eb9f4d;
+            background: #3f5b8c;
             left: 0;
             bottom: -5px;
             transition: width 0.3s;
@@ -146,7 +146,7 @@ nav .navbar-container {
         .nav-toggle-label span::before,
         .nav-toggle-label span::after {
             display: block;
-            background: #eb9f4d;
+            background: #3f5b8c;
             height: 3px;
             width: 100%;
             border-radius: 2px;
@@ -219,7 +219,7 @@ nav .navbar-container {
         }
 
         header .btn {
-            background: #eb9f4d;
+            background: #3f5b8c;
             color: #fff;
             padding: 12px 25px;
             border-radius: 25px;
@@ -268,7 +268,7 @@ nav .navbar-container {
             margin-bottom: 40px;
             font-size: 2.5rem;
             line-height: 1.1;
-            color: #eb9f4d;
+            color: #3f5b8c;
             position: relative;
         }
 
@@ -276,7 +276,7 @@ nav .navbar-container {
             content: '';
             width: 60px;
             height: 4px;
-            background: #eb9f4d;
+            background: #3f5b8c;
             display: block;
             margin: 10px auto 0;
             border-radius: 2px;
@@ -307,7 +307,7 @@ nav .navbar-container {
         }
 
         #contacto p a {
-            color: #eb9f4d;
+            color: #3f5b8c;
         }
 
         #contacto p a:hover {
@@ -354,7 +354,7 @@ nav .navbar-container {
 
         #juntas ol li::before {
             content: "\f058";
-            color: #eb9f4d;
+            color: #3f5b8c;
             font-family: 'Font Awesome 5 Free';
             font-weight: 900;
             position: absolute;
@@ -372,7 +372,7 @@ nav .navbar-container {
 
         .documents .btn,
         .resultado .btn {
-            background: #eb9f4d;
+            background: #3f5b8c;
             color: #fff;
             border: none;
             padding: 10px 15px;
