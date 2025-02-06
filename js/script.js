@@ -52,7 +52,10 @@
                     }
                 });
             });
-
+// Get the current year and update the span footer
+const currentYear = new Date().getFullYear();
+document.getElementById("year").textContent = currentYear;
+                  
             // Change navbar background after scrolling 100px
             window.addEventListener('scroll', () => {
                 if (window.scrollY > 600) {
