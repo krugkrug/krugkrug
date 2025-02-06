@@ -83,7 +83,7 @@
         .nav-menu {
             display: flex;
             list-style: none;
-         margin-right: auto
+         margin-left: auto
         }
 
         .nav-menu li {
