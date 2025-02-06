@@ -61,7 +61,6 @@
         }
 
 
-
         nav .container {
             display: flex;
             align-items: center;
@@ -69,12 +68,15 @@
             padding: 10px 0;
         }
 
-        nav .container-fluid {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 0;
-        }
+
+nav .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Push elements to opposite sides */
+    align-items: center; /* Align items vertically */
+    padding: 10px 20px;
+}
+
+
 
         nav .logo {
             font-size: 1.5rem;
@@ -85,11 +87,18 @@
 
         }
 
-        .nav-menu {
-            display: flex;
-            list-style: none;
-         margin-right: auto
-        }
+.nav-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
 
         .nav-menu li {
             margin-left: 30px;
