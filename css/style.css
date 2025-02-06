@@ -186,8 +186,9 @@ nav .navbar-container {
 
         /* Header Section */
         header {
-            padding: 150px 0;
-            display: flex;
+         padding-top: 200px;
+         padding-bottom: 150px;
+         display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
