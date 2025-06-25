@@ -287,7 +287,7 @@ nav .navbar-container {
         #contacto,
         #juntas,
         #aviso,
-        #eventos {
+        #judicial {
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -327,12 +327,12 @@ nav .navbar-container {
         }
 
         #juntas .junta,
-        #eventos .evento {
+        #judicial .evento {
             margin-bottom: 30px;
         }
 
         #juntas h3,
-        #eventos h3 {
+        #judicial h3 {
             margin-bottom: 40px;
             font-size: 1.5rem;
             line-height: 1.1;
@@ -341,7 +341,7 @@ nav .navbar-container {
         }
 
         #juntas h3::after,
-        #eventos h3::after {
+        #judicial h3::after {
                content: '';
             width: 100%;
             height: 4px;
@@ -353,7 +353,7 @@ nav .navbar-container {
 
 
         #juntas p,
-        #eventos p {
+        #judicial p {
             margin-bottom: 10px;
             color: #555;
         }
@@ -472,7 +472,7 @@ nav .navbar-container {
             #contacto,
             #juntas,
             #aviso,
-            #eventos {
+            #judicial {
                 padding: 40px 12px;
                 width: 90%;
             }
