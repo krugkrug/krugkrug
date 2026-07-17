@@ -285,6 +285,7 @@ nav .navbar-container {
 
 
         #contacto,
+        #fase-final,
         #juntas,
         #aviso,
         #judicial {
@@ -327,12 +328,14 @@ nav .navbar-container {
         }
 
         #juntas .junta,
-        #judicial .judicial {
+        #judicial .judicial,
+        #fase-final .judicial {
             margin-bottom: 30px;
         }
 
         #juntas h3,
-        #judicial h3 {
+        #judicial h3,
+        #fase-final h3 {
             margin-bottom: 40px;
             font-size: 1.5rem;
             line-height: 1.1;
@@ -341,7 +344,8 @@ nav .navbar-container {
         }
 
         #juntas h3::after,
-        #judicial h3::after {
+        #judicial h3::after,
+        #fase-final h3::after {
                content: '';
             width: 100%;
             height: 4px;
@@ -352,13 +356,15 @@ nav .navbar-container {
         }
 
         #juntas h3 .body-text,
-        #judicial h3 .body-text {
+        #judicial h3 .body-text,
+        #fase-final h3 .body-text {
             color: #666;
             font-size: 1rem;
         }
 
         #juntas p,
-        #judicial p {
+        #judicial p,
+        #fase-final p {
             margin-bottom: 10px;
             color: #555;
         }
@@ -475,6 +481,7 @@ nav .navbar-container {
             }
 
             #contacto,
+            #fase-final,
             #juntas,
             #aviso,
             #judicial {
